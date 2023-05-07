@@ -1,2 +1,1 @@
-# Amalitech_Portfolio_Project
-This is my first amalitech project about HTML and CSS.
+This is my first Amalitech Portfolio Project

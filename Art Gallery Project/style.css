@@ -1,0 +1,1169 @@
+.header{
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 800px;
+    
+    
+}
+
+.header_rectangle{
+    position: absolute;
+    height: 800px;
+    width: 36vw;
+    background-color: black;
+}
+
+.header_pic{
+    position: absolute;
+    height: 800px;
+    width: 29vw;
+    left: 36vw;
+    animation-name: roll_right;
+    animation-duration: 3s;    
+}
+
+@keyframes roll_right{
+    0%{
+        top: -50%;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+
+.image-hero{
+    width: 100%;
+    height: 100%;
+}
+
+.header_text{
+    position: absolute;
+    height: 300px;
+    left: 23vw;
+    width: 22vw;
+    
+    top: 220px;
+}
+
+.header_modern{
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 80px;
+    /* or 92% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+    width: 20vw;
+    mix-blend-mode: difference;
+}
+
+.the_arts{
+    position: absolute;
+    height: 160px;
+    left: 61.55%;
+    right: 20%;
+    top: calc(58% - 160px/2 - 130px);
+
+    /* Body (M) */
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 145% */
+
+
+    /* Dark Grey */
+
+    color: #444444;
+}
+
+.location{
+    position: absolute;
+    left: 61.55%;
+    top: 55%;
+    animation-name: from_right;
+    animation-duration: 3s;
+}
+
+@keyframes from_right{
+    0%{
+        left: 80%;
+    }
+    100%{
+        left: 61.55%;
+    }
+}
+
+.our_location{
+    border-radius: 0%;
+    border: 0;
+    background-color: black;
+    color: white;
+    height: 38px;
+    padding: 30px auto;
+    font-family: 'Big Shoulders Display';
+    font-size: larger;
+    width: 110px;
+    text-transform: uppercase;
+}
+.our_location:hover{
+    cursor: pointer;
+}
+
+.right_arrow{
+    position: relative;
+    border-radius: 0%;
+    border: 0;
+    top: 3.2px;
+    background-color: #D5966C;
+    height: 38px;
+    padding: 50px auto;
+    width: 40px;
+}
+.right_arrow:hover{
+    cursor: pointer;
+}
+
+.body{
+    position: absolute;
+    top: 700px;
+    background-color: white;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    height: 1010px;
+}
+
+.middle_container{
+    position: absolute;
+    width: 60%;
+    height: 85%;
+    left: 23%;
+    top: 1%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.top_left_container{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    left: 0;
+    top: 0;
+    background-color: none;
+}
+
+.your_day{
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 0;
+    top: calc(40% - 120px/2 - 80px);
+
+    /* Heading (M) */
+
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+
+    text-transform: uppercase;
+
+    /* Almost Black */
+
+    color: #151515;
+
+}
+
+.wander{
+    position: absolute;
+    top: 50%;
+    height: 128px;
+    left: 0%;
+    right: 20%;
+}
+
+.top_right_container{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    background-color: #D5966C;
+    left: 40%;
+}
+
+.image-grid-1{
+    max-width:100%;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom_left_container{
+    position: absolute;
+    width: 55%;
+    height: 68.5%;
+    top: 31.5%;
+    background-color: #D5966C;
+}
+
+.image-grid-2{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom_middle_container{
+    position: absolute;
+    top: 31.5%;
+    background-color: none;
+    left: 57.5%;
+    width: 42.5%;
+    height: 33%;
+}
+
+.image-grid-3{
+    height: 100%;
+    width: 100%;
+}
+
+.bottom_right_container{
+    position: absolute;
+    left: 57.5%;
+    background-color: black;
+    height: 34%;
+    width: 42.5%;
+    top: 66%;
+}
+
+.come{
+    position: absolute;
+    height: 120px;
+    left: 7%;
+    right: 0%;
+    
+
+    /* Heading (M) */
+
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    /* or 100% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.we{
+    position: absolute;
+    height: 96px;
+    left: 7%;
+    right: 15%;
+    top: calc(50% - 96px/2 + 76px);
+
+    /* Body (M) */
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 145% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.footer{
+    position: absolute;
+    top: 1010px;
+    height: 254px;
+    background-color: black;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.footer_left{
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    width: 11%;
+    height: 40%;
+    background-color: none;
+}
+
+.footer_modern{
+    position: absolute;
+    height: 176px;
+
+    /* Heading (XL) */
+
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+    /* or 92% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: white;
+}
+
+.footer_middle{
+    position: absolute;
+    top: 27%;
+    width: 21%;
+    height: 40%;
+    background-color: none;
+    left: 39%;
+}
+
+.the_modern{
+    position: absolute;
+    height: 84px;
+    right: 0%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 156% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.socials{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    top: 30%;
+    left: 68%;
+    background-color: none;
+}
+
+.facebook{
+    position: absolute;
+    left: 25%;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+.instagram{
+    position: absolute;
+    left: 55%;
+}
+
+.instagram:hover{
+    cursor: pointer;
+}
+
+.twitter{
+    position: absolute;
+    left: 80%;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .header{
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 700px;
+        
+        
+    }
+    
+    .header_rectangle{
+        position: absolute;
+        height: 700px;
+        width: 0;
+        background-color: black;
+    }
+    
+    .header_pic{
+        position: absolute;
+        height: 700px;
+        width: 60vw;
+        left: 0vw;
+        
+    }
+    
+    .image-hero{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header_text{
+        position: absolute;
+        height: 300px;
+        left: 55vw;
+        width: 40vw;
+        background-color: none;
+        top: 150px;
+    }
+    
+    .header_modern{
+        position: absolute;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        /* or 92% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: black;
+        width: 20vw;
+        mix-blend-mode:normal;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    .the_arts{
+        position: absolute;
+        height: 160px;
+        left: 55.55%;
+        right: 20%;
+        top: calc(75% - 160px/2 - 130px);
+    
+        /* Body (M) */
+    
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        /* or 145% */
+    
+    
+        /* Dark Grey */
+    
+        color: #444444;
+    }
+    
+    .location{
+        position: absolute;
+        left: 55.55%;
+        top: 70%;
+    }
+    
+    .our_location{
+        border-radius: 0%;
+        border: 0;
+        background-color: black;
+        color: white;
+        height: 38px;
+        padding: 30px auto;
+        font-family: 'Big Shoulders Display';
+        font-size: larger;
+        width: 110px;
+        text-transform: uppercase;
+    }
+    .our_location:hover{
+        cursor: pointer;
+    }
+    
+    .right_arrow{
+        position: relative;
+        border-radius: 0%;
+        border: 0;
+        top: 3.2px;
+        background-color: #D5966C;
+        height: 38px;
+        padding: 50px auto;
+        width: 40px;
+    }
+    .right_arrow:hover{
+        cursor: pointer;
+    }
+    
+    .body{
+        position: absolute;
+        top: 700px;
+        background-color: white;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        height: 800px;
+    }
+    
+    .middle_container{
+        position: absolute;
+        width: 87%;
+        height: 85%;
+        left: 7%;
+        top: 1%;
+        background-color: white;
+        margin: 50px auto;
+    }
+    
+    .top_left_container{
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        left: 0;
+        top: 0;
+        background-color: none;
+    }
+    
+    .your_day{
+        position: absolute;
+        height: 120px;
+        left: 0%;
+        right: 0;
+        top: calc(55% - 120px/2 - 80px);
+    
+        /* Heading (M) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        /* or 100% */
+    
+        text-transform: uppercase;
+    
+        /* Almost Black */
+    
+        color: #151515;
+    
+    }
+    
+    .wander{
+        position: absolute;
+        top: 50%;
+        height: 128px;
+        left: 0%;
+        right: 20%;
+        font-size: small;
+    }
+    
+    .top_right_container{
+        position: absolute;
+        width: 60%;
+        height: 30%;
+        background-color: #D5966C;
+        left: 40%;
+    }
+    
+    .image-grid-1{
+        max-width:100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bottom_left_container{
+        position: absolute;
+        width: 55%;
+        height: 68.5%;
+        top: 31.5%;
+        background-color: #D5966C;
+    }
+    
+    .image-grid-2{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bottom_middle_container{
+        position: absolute;
+        top: 31.5%;
+        background-color: none;
+        left: 57.5%;
+        width: 42.5%;
+        height: 33%;
+    }
+    
+    .image-grid-3{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bottom_right_container{
+        position: absolute;
+        left: 57.5%;
+        background-color: black;
+        height: 34%;
+        width: 42.5%;
+        top: 66%;
+    }
+    
+    .come{
+        position: absolute;
+        height: 120px;
+        left: 7%;
+        right: 0%;
+        
+    
+        /* Heading (M) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+        /* or 100% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .we{
+        position: absolute;
+        height: 96px;
+        left: 7%;
+        right: 15%;
+        top: calc(30% - 96px/2 + 76px);
+    
+        /* Body (M) */
+    
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 145% */
+    
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .footer{
+        position: absolute;
+        top: 800px;
+        height: 254px;
+        background-color: black;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+        display: flex;
+    }
+    
+    .footer_left{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        width: 11%;
+        height: 40%;
+        background-color: none;
+    }
+    
+    .footer_modern{
+        position: absolute;
+        height: 176px;
+    
+        /* Heading (XL) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 92% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: white;
+    }
+    
+    .footer_middle{
+        position: absolute;
+        top: 26%;
+        width: 25%;
+        height: 40%;
+        background-color: none;
+        left: 30%;
+    }
+    
+    .the_modern{
+        position: absolute;
+        height: 84px;
+        right: 0%;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        /* or 156% */
+    
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .socials{
+        position: absolute;
+        width: 15%;
+        height: 20%;
+        top: 30%;
+        left: 79%;
+        background-color: none;
+    }
+    
+    .facebook{
+        position: absolute;
+        left: 25%;
+    }
+    
+    .facebook:hover{
+        cursor: pointer;
+    }
+    
+    .instagram{
+        position: absolute;
+        left: 55%;
+    }
+    
+    .instagram:hover{
+        cursor: pointer;
+    }
+    
+    .twitter{
+        position: absolute;
+        left: 80%;
+    }
+    
+    .twitter:hover{
+        cursor: pointer;
+    } 
+}
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .header{
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 650px;
+        
+        
+    }
+    
+    .header_rectangle{
+        position: absolute;
+        height: 650px;
+        width: 0;
+        background-color: black;
+    }
+    
+    .header_pic{
+        position: absolute;
+        height: 650px;
+        width: 100vw;
+        left: 0;
+        object-position: 100% 0;
+        
+    }
+    
+    .image-hero{
+        width: 100%;
+        height: 33%;
+        object-fit: cover;
+    }
+    
+    .header_text{
+        position: absolute;
+        height: 200px;
+        left: 2%;
+        width: 100vw;
+    
+        top: 210px;
+        
+    }
+    
+    .header_modern{
+        position: absolute;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 60px;
+        /* or 92% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: black;
+        
+        mix-blend-mode: normal;
+    }
+
+    .header_modern br{
+        display: none;
+    }
+    
+    .the_arts{
+        position: absolute;
+        height: 160px;
+        left: 2%;
+        right: 0;
+        top: calc(96% - 160px/2 - 130px);
+    
+        /* Body (M) */
+    
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 145% */
+    
+    
+        /* Dark Grey */
+    
+        color: #444444;
+    }
+    
+    .location{
+        position: absolute;
+        left: 2%;
+        top: 82%;
+    }
+    
+    .our_location{
+        border-radius: 0%;
+        border: 0;
+        background-color: black;
+        color: white;
+        height: 38px;
+        padding: 30px auto;
+        font-family: 'Big Shoulders Display';
+        font-size: larger;
+        width: 110px;
+        text-transform: uppercase;
+    }
+    .our_location:hover{
+        cursor: pointer;
+    }
+    
+    .right_arrow{
+        position: relative;
+        border-radius: 0%;
+        border: 0;
+        top: 3.2px;
+        background-color: #D5966C;
+        height: 38px;
+        padding: 50px auto;
+        width: 40px;
+    }
+    .right_arrow:hover{
+        cursor: pointer;
+    }
+    
+    .body{
+        position: absolute;
+        top: 570px;
+        background-color: white;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        height: 1510px;
+    }
+    
+    .middle_container{
+        position: absolute;
+        width: 100vw;
+        height: 85%;
+        left: 0;
+        top: 0;
+        background-color: white;
+        margin: 50px auto;
+    }
+    
+    .top_left_container{
+        position: absolute;
+        width: 97%;
+        height: 20%;
+        left: 2%;
+        top: 23%;
+        background-color: none;
+    }
+    
+    .your_day{
+        position: absolute;
+        height: 120px;
+        left: 0%;
+        right: 0;
+        top: calc(40% - 120px/2 - 80px);
+    
+        /* Heading (M) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 50px;
+        /* or 100% */
+    
+        text-transform: uppercase;
+    
+        /* Almost Black */
+    
+        color: #151515;
+    
+    }
+    
+    .wander{
+        position: absolute;
+        top: 40%;
+        height: 128px;
+        left: 0%;
+        right: 20%;
+    }
+    
+    .top_right_container{
+        position: absolute;
+        width: 97%;
+        height: 20%;
+        background-color: #D5966C;
+        left: 2%;
+    }
+    
+    .image-grid-1{
+        max-width:100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bottom_left_container{
+        position: absolute;
+        width: 97%;
+        height: 27.5%;
+        left: 2%;
+        top: 37.5%;
+        background-color: #D5966C;
+    }
+    
+    .image-grid-2{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bottom_middle_container{
+        position: absolute;
+        top: 66.5%;
+        background-color: none;
+        left: 2%;
+        width: 97%;
+        height: 17%;
+    }
+    
+    .image-grid-3{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bottom_right_container{
+        position: absolute;
+        left: 2%;
+        background-color: black;
+        height: 20%;
+        width: 97%;
+        top: 85%;
+    }
+    
+    .come{
+        position: absolute;
+        height: 120px;
+        left: 7%;
+        right: 0%;
+        
+    
+        /* Heading (M) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60px;
+        /* or 100% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .we{
+        position: absolute;
+        height: 96px;
+        left: 7%;
+        right: 15%;
+        top: calc(50% - 96px/2 + 76px);
+    
+        /* Body (M) */
+    
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 145% */
+    
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .footer{
+        position: absolute;
+        top: 1510px;
+        height: 254px;
+        background-color: black;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+        display: flex;
+    }
+    
+    .footer_left{
+        position: absolute;
+        top: 5%;
+        left: 8%;
+        width: 40%;
+        height: 40%;
+        background-color: none;
+    }
+    
+    .footer_modern{
+        position: absolute;
+        height: 176px;
+    
+        /* Heading (XL) */
+    
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 92% */
+    
+        text-transform: uppercase;
+    
+        /* White */
+    
+        color: white;
+    }
+    
+    .footer_middle{
+        position: absolute;
+        top: 27%;
+        width: 61%;
+        height: 10%;
+        background-color: none;
+        left: 8%;
+    }
+    
+    .the_modern{
+        position: absolute;
+        height: 84px;
+        right: 0%;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 15px;
+        /* or 156% */
+    
+    
+        /* White */
+    
+        color: #FFFFFF;
+    }
+    
+    .socials{
+        position: absolute;
+        width: 35%;
+        height: 20%;
+        top: 65%;
+        left: 0%;
+        background-color: none;
+    }
+    
+    .facebook{
+        position: absolute;
+        left: 25%;
+    }
+    
+    .facebook:hover{
+        cursor: pointer;
+    }
+    
+    .instagram{
+        position: absolute;
+        left: 55%;
+    }
+    
+    .instagram:hover{
+        cursor: pointer;
+    }
+    
+    .twitter{
+        position: absolute;
+        left: 80%;
+    }
+    
+    .twitter:hover{
+        cursor: pointer;
+    }
+}
