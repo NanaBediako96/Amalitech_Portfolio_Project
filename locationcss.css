@@ -64,6 +64,7 @@ body{
 }
 .back_to_home:hover{
     cursor: pointer;
+    background-color: #D5966C ;
 }
 
 .left_arrow{
@@ -289,6 +290,7 @@ animation-duration: 1s;
 }
 .facebook:hover{
     cursor: pointer;
+    filter: invert(0.1) sepia(0) saturate(20) hue-rotate(0deg) brightness(0.81);
 }
 
 .instagram{
@@ -296,9 +298,11 @@ animation-duration: 1s;
     left: 10%;
     color: #151515;
     filter: brightness(0);
+    
 }
 .instagram:hover{
     cursor: pointer;
+    filter: invert(0.1) sepia(0) saturate(20) hue-rotate(0deg) brightness(0.81);
 }
 
 .twitter{
@@ -308,6 +312,7 @@ animation-duration: 1s;
 }
 .twitter:hover{
     cursor: pointer;
+    filter: invert(0.1) sepia(0) saturate(20) hue-rotate(0deg) brightness(0.81);
 }
 
 
