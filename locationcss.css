@@ -1,4 +1,10 @@
-@media (max-width: 1550px){
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    height: 100vw;
+}
 
 .header{
     position: absolute;
@@ -7,7 +13,7 @@
     align-items: center;
     position: absolute;
     width: 100vw;
-    height: 40vh;
+    height: 600px;
     top: 0;
     right: 0;
     left: 0;
@@ -17,7 +23,7 @@
 .map{
  position: absolute;
  width: 100vw;
- height: 40vh;
+ height: 600px;
  top: 0;
  left: 0;
  right: 0;
@@ -81,9 +87,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 60vh;
+    height: 548px;
     border: 0;
-    top: 40vh;
+    top: 600px;
     
     left: 0;
     right: 0;
@@ -211,7 +217,7 @@ animation-duration: 1s;
     justify-content: center;
     align-items: center;
     border: 0;
-    top: 100vh;
+    top: 1148px;
     height: 30vh;
     left: 0;
     right: 0;
@@ -303,7 +309,7 @@ animation-duration: 1s;
 .twitter:hover{
     cursor: pointer;
 }
-}
+
 
 
 @media (max-width: 768px){
@@ -509,7 +515,7 @@ animation-duration: 1s;
         position: absolute;
         left: 5vw;
         right: 68.47%;
-        top: calc(82% - 140px/2 - 88px);
+        top: 10px;
         font-family: 'Big Shoulders Display';
         font-style: normal;
         font-weight: 900px;
@@ -668,7 +674,7 @@ animation-duration: 1s;
         height: 40vh;
         left: 10vw;
         right: 20vw;
-        top: 10vw;
+        top: 10px;
     
         /* Heading (L) */
     
@@ -789,7 +795,7 @@ animation-duration: 1s;
         position: absolute;
         left: 10vw;
         right: 40.47%;
-        top: calc(50% - 140px/2 - 88px);
+        top: 5px;
         font-family: 'Big Shoulders Display';
         font-style: normal;
         font-weight: 600px;

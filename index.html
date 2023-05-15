@@ -2,73 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Big Shoulders Display'rel='stylesheet' />
-  <link href='https://fonts.googleapis.com/css?family=Outfit'rel='stylesheet' />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href='https://fonts.googleapis.com/css?family=Big Shoulders Display' rel='stylesheet'/>
+  <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'/>
+  <link href="./assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./main.css" rel="stylesheet">
+<!--  <link href="./style.css" rel="stylesheet">-->
   <title>Frontend Mentor | Art gallery website</title>
 </head>
 <body>
-  <div class="header">
-    <div class="header_rectangle"></div>
-    <div class="header_pic"><img class="image-hero" src="./assets/desktop/image-hero@2x.jpg" alt="image-hero"></div>
+<section class="header">
+  <div class="header_img_group">
+    <div class="d-flex h-100">
+      <div class="header_rectangle d-none d-lg-flex"></div>
+      <div class="header_pic">
+        <img alt="image-hero" class="image-hero w-100 h-100"
+             src="./assets/desktop/image-hero@2x.jpg">
+      </div>
+    </div>
     <div class="header_text"><h1 class="header_modern">Modern <br> Art Gallery</h1></div>
-    
-    
-    <p class="the_arts">The arts in the collection of the Modern Art Gallery all started 
-    from a spark of inspiration. Will these pieces inspire you? Visit 
-    us and find out.</p>
-    
-    <div class="location">
-      <a href="./location.html"><button class="our_location"> Our location</button><button class="right_arrow"><img class="arrow" src="./assets/icon-arrow-right.svg" alt="left_arrow"></button></a>
-     </div>
-  
+    <div class="gallery_info">
+      <p class="the_arts">The arts in the collection of the Modern Art Gallery all started
+        from a spark of inspiration. Will these pieces inspire you? Visit
+        us and find out.</p>
+
+      <div class="location">
+        <a href="./location.html">
+          <button class="our_location"> Our location</button>
+        </a>
+        <a class="right_arrow_container" href="./location.html"><img alt="left_arrow"
+                                                                     class="right_arrow"
+                                                                     src="./assets/icon-arrow-right.svg"></a>
+      </div>
+    </div>
   </div>
+</section>
 
-  <div class="body">
-    <div class="middle_container">
-    <div class="top_left_container"><h1 class="your_day">Your day at <br> the gallery</h1>
-    
-    <p class="wander">Wander through our distinct collections and find new insights about 
-    our artists. Dive into the details of their creative process.</p>
+<section class="body">
+  <div class="row align-items-center mb-30">
+    <div class="col-lg-5 col-sm-5 order-1 order-sm-0">
+      <div class="sized">
+        <h1 class="your_day">Your day at <br> the gallery</h1>
+        <p class="wander">Wander through our distinct collections and find new insights about
+          our artists. Dive into the details of their creative process.</p>
+      </div>
     </div>
-
-    <div class="top_right_container">
-      <img class="image-grid-1" src="./assets/desktop/image-grid-1@2x.jpg" alt="image-grid-1">
+    <div class="col-lg-7 col-sm-7">
+      <img alt="image-grid-1" class="image-grid-1" src="./assets/desktop/image-grid-1@2x.jpg">
     </div>
-
-    <div class="bottom_left_container">
-      <img class="image-grid-2" src="./assets/desktop/image-grid-2@2x.jpg" alt="image-grid-2">
-    </div>
-
-    <div class="bottom_middle_container">
-      <img class="image-grid-3" src="./assets/desktop/image-grid-3@2x.jpg" alt="image-grid-3">
-    </div>
-
-    <div class="bottom_right_container">
-      <h1 class="come">Come &amp; be <br> inspired</h1> 
-
-    <p class="we">We’re excited to welcome you to our gallery and see how our collections 
-      influence you.</p> 
-    </div>
-    
-   
   </div>
+  <div class="row images">
+    <div class="col-lg-7 col-sm-7 h-100">
+      <img alt="image-grid-2" class="image-grid-2" src="./assets/desktop/image-grid-2@2x.jpg">
+    </div>
+    <div class="col-lg-5 col-sm-5">
+      <div class="mb-30">
+        <img alt="image-grid-3" class="image-grid-3" src="./assets/desktop/image-grid-3@2x.jpg">
+      </div>
 
-  <div class="footer">
+      <div class="bottom_right_container">
+        <h1 class="come">Come &amp; be <br> inspired</h1>
 
-  <div class="footer_left"><h1 class="footer_modern">Modern <br> Art Gallery</h1> </div>
-
-  <div class="footer_middle"><p class="the_modern">The Modern Art Gallery is free to all visitors and open seven days a week 
-    from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p></div>
-  
-  <div class="socials">
-    <img class="facebook" src="./assets/icon-facebook.svg" alt="facebook">
-    <img class="instagram" src="./assets/icon-instagram.svg" alt="instagram">
-    <img class="twitter" src="./assets/icon-twitter.svg" alt="twitter">
+        <p class="we">We’re excited to welcome you to our gallery and see how our collections
+          influence you.</p>
+      </div>
+    </div>
   </div>
-   
+</section>
+
+<div class="footer">
+  <div class="row">
+    <div class="col-md-3">
+      <h1 class="footer_modern">Modern <br> Art Gallery</h1>
+    </div>
+    <div class="col-md-5">
+      <p class="the_modern">The Modern Art Gallery is free to all visitors and open seven days a
+        week
+        from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+    </div>
+    <div class="col-md-4 text-end">
+      <div class="">
+        <img alt="facebook" class="facebook" src="./assets/icon-facebook.svg">
+        <img alt="instagram" class="instagram" src="./assets/icon-instagram.svg">
+        <img alt="twitter" class="twitter" src="./assets/icon-twitter.svg">
+      </div>
+    </div>
   </div>
+</div>
 </body>
 </html>
